@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/nisin/UIKitWrapCombine.git", .branch("main")),
     ],
     targets: [
-        .target(name: "MyLibrary", dependencies: ["CombineAction"]),
+        .target(name: "MyLibrary", dependencies: ["UIKitWrapCombine"]),
     ]
 )
 ```
